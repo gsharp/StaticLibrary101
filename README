@@ -1,0 +1,25 @@
+Hey!
+
+I'm doing a class that is teaching me how to do static libraries in c.
+
+This was the order of events:
+
+create two .c files that have functions in them
+source/hello.c
+source/world.c
+
+compile those into object files
+objects/hello.o
+objects/world.o
+
+create a static library
+ar -rcs libhw.a
+
+create a header file and declare prototypes
+hw.h
+
+create my app source
+hw.c
+
+compile my app (finally)
+hello_world
